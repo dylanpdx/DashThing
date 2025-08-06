@@ -1,0 +1,96 @@
+.fulldiv{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.centerhv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loader {
+    width: 27px;
+    height: 27px;
+    border: 3px solid #7c7c7c;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.loadingSection{
+	display: block;
+}
+
+.loadinglabel{
+	font-size: 25px;
+}
+
+.loadingscreen{
+	background: #1c1c1c;
+	color:aliceblue;
+	z-index: 100;
+}
+
+.loadingscreen.hidden{
+	display: none;
+}
+
+.mainScreen{
+	background: #1c1c1c;
+	color:aliceblue;
+}
+
+#app{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: auto;
+}
+
+.clock{
+	width: fit-content;
+	padding-left: 2%;
+	padding-right: 3%;
+	font-size: 40px;
+	font-family: monospace;
+}
+.clock p{
+	margin: 0;
+}
+
+.weather{
+	width: fit-content;
+	height:1em;
+	padding-right: 1%;
+	font-size: 40px;
+	font-family: monospace;
+}
+
+.clockweather{
+	display:flex;
+	background-color: #1f1f1f;
+	position: absolute;
+	align-items: center;
+	top:85%;
+	left: 0%;
+	right: 0%;
+	bottom: 0%;
+}

@@ -1,4 +1,4 @@
-# DashThing
+# DashThing Client
 
 Spotify car thing WIP dashboard
 
